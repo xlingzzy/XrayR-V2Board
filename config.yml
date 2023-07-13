@@ -20,7 +20,7 @@ Nodes:
       EnableDNS: false # Use custom DNS config, Please ensure that you set the dns.json well
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
-        CertDomain: "node1.test.com" # Domain to cert
+        CertDomain: "www.lingzz.club" # Domain to cert
         CertFile: /etc/ssl/private/fullchain.pem # Provided if the CertMode is file
         KeyFile: /etc/ssl/private/privkey.pem
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
